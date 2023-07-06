@@ -1,36 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cheap_Shop</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
+
 <body>
     <header>
-        <nav>
-            <a href="">Shopping C_cart</a>
-        </nav>
-        <i class='bx bxs-shopping-bag'></i>
-    </header>
-    <section>
-        <div>
-            <h2>Shopping products</h2>
+        <div class="container">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand">
+                        Cheap_Shop.in
+                        &nbsp&nbsp&nbsp&nbsp
+                        <input id="search " type="text" placeholder="Search" autocomplete="off">
+                    </a>&nbsp&nbsp&nbsp&nbsp
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>&nbsp&nbsp&nbsp&nbsp
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>&nbsp&nbsp&nbsp&nbsp
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                    </ul>
+                    <i class='bx bx-cart bx-tada' style='color:#fff9f9'></i>
+                </div>
+            </nav>
         </div>
-        <div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhFXg4WrMML5iTrqAlqD42PVnMeL5OtNBXJg&usqp=CAU"
-                alt="Loading..." length="110px" width="110px" />
-            <h3>Talking Toy</h3>
-            <span>₹9999</span>
-            <i class='bx bxs-shopping-bag'></i>
-            <br></br>
-            <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhFXg4WrMML5iTrqAlqD42PVnMeL5OtNBXJg&usqp=CAU"
-                    alt="Loading..." length="110px" width="110px" />
-                <h3>Talking Toyyy</h3>
-                <span>₹8888</span>
-                <i class='bx bxs-shopping-bag'></i>
+    </header>
+
+    <br><br />
+
+
+    <!-- FIRST ROW -->
+    <!-- 1 -->
+    <div class="container">
+        <header>
+            <nav>
+                <h3>ELECTRONICS</h3>
+            </nav>
+        </header>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card bg-light-subtle">
+                    <img class="card-img-top" src="../Images/electronics1.jpg" alt="UNIVERSAL SOCKET" width="150px"
+                        height="300px" />
+                </div>
+                <div class="card-body bg-body-tertiary">
+                    <p>
+                        SGJET 4 UNIVERSAL SOCKET 3 SWITCH MULTI PLUG EXTENSION BOARD 4 Socket
+                    </p>
+                    <span style="font-size: 2em;">₹189</span>
+                    <div class="card footer bg-secondary-subtle">
+                        <button class="btn border border-secondary btn-sm">BUY</button>
+                    </div>
+                    <button class="btn border border-secondary">+</button>
+                    <i class='bx bx-cart-add bx-flashing'></i>
+                    <button class="btn border border-secondary">-</button>
+                </div>
             </div>
-    </section>
+
+
+            </hr>
+            <br>
+            <!-- 2 -->
+            <div class="col-md-3">
+                <div class="card bg-light-subtle">
+                    <img class="card-img-top" src="../Images/electronics2.jpg" alt="Ceiling Fan" width="50px"
+                        height="300px" />
+                </div>
+                <div class="card-body bg-body-tertiary">
+                    <p>
+                        Zunpulse 1200 Avian Plus Ceiling Fan Brown
+                    </p>
+                    <span style="font-size: 2em;">₹2349</span>
+                    <div class="card footer bg-secondary-subtle">
+                        <button class="btn border border-secondary btn-sm">BUY</button>
+                    </div>
+                    <button class="btn border border-secondary">+</button>
+                    <i class='bx bx-cart-add bx-flashing'></i>
+                    <button class="btn border border-secondary">-</button>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="col-md-3">
+                <div class="card bg-light-subtle">
+                    <img class="card-img-top" src="../Images/electronics3.jpg" alt="Calculator" width="50px"
+                        height="300px" />
+                </div>
+                <div class="card-body bg-body-tertiary">
+                    <p>
+                        Villy Orbit OT-512 WTC White Electronics Basic Calculator (12 Digit)
+                    </p>
+                    <span style="font-size: 2em;">₹199</span>
+                    <div class="card footer bg-secondary-subtle">
+                        <button class="btn border border-secondary btn-sm">BUY</button>
+                    </div>
+                    <button class="btn border border-secondary">+</button>
+                    <i class='bx bx-cart-add bx-flashing'></i>
+                    <button class="btn border border-secondary">-</button>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="col-md-3">
+                <div class="card bg-light-subtle">
+                    <img class="card-img-top" src="../Images/electronics4.jpg" alt="UNIVERSAL SOCKET" width="50px"
+                        height="300px" />
+                </div>
+                <div class="card-body bg-body-tertiary">
+                    <p>
+                        Fluke 107 Ac/dc Current Handheld Digital Multimeter
+                    </p>
+                    <span style="font-size: 2em;">₹14000</span>
+                    <div class="card footer bg-secondary-subtle">
+                        <button class="btn border border-secondary btn-sm">BUY</button>
+                    </div>
+                    <button class="btn border border-secondary">+</button>
+                    <i class='bx bx-cart-add bx-flashing'></i>
+                    <button class="btn border border-secondary">-</button>
+                </div>
+            </div>
+
+            <br><br />
+
+<!-- SECOND ROW -->
+<!-- 1 -->
+<hr><hr/>
+            <div class="container">
+                <header>
+                    <nav>
+                        <h3>BOOKS</h3>
+                    </nav>
+                </header>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card bg-light-subtle">
+                            <img class="card-img-top" src="../Images/books1" alt="LOADING.." width="150px"
+                                height="300px" />
+                        </div>
+                        <div class="card-body bg-body-tertiary">
+                            <p>
+                                It Ends with Us by Colleen Hoover
+                            </p>
+                            <span style="font-size: 2em;">₹224</span>
+                            <div class="card footer bg-secondary-subtle">
+                                <button class="btn border border-secondary btn-sm">BUY</button>
+                            </div>
+                            <button class="btn border border-secondary">+</button>
+                            <i class='bx bx-cart-add bx-flashing'></i>
+                            <button class="btn border border-secondary">-</button>
+                        </div>
+                    </div>
+                    </hr>
+                    <br>
+
+     <!-- 2 -->
+                    <div class="col-md-3">
+                        <div class="card bg-light-subtle">
+                            <img class="card-img-top" src="../Images/books2" alt="LOADING..."
+                                width="50px" height="300px" />
+                        </div>
+                        <div class="card-body bg-body-tertiary">
+                            <p>
+                                It Start with Us by Colleen Hoover
+                            </p>
+                            <span style="font-size: 2em;">₹190</span>
+                            <div class="card footer bg-secondary-subtle">
+                                <button class="btn border border-secondary btn-sm">BUY</button>
+                            </div>
+                            <button class="btn border border-secondary">+</button>
+                            <i class='bx bx-cart-add bx-flashing'></i>
+                            <button class="btn border border-secondary">-</button>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="col-md-3">
+                        <div class="card bg-light-subtle">
+                            <img class="card-img-top" src="../Images/books3" alt="LOADING..."
+                                width="50px" height="300px" />
+                        </div>
+                        <div class="card-body bg-body-tertiary">
+                            <p>
+                                Remember Of Him by Colleen Hoover
+                            </p>
+                            <span style="font-size: 2em;">₹480</span>
+                            <div class="card footer bg-secondary-subtle">
+                                <button class="btn border border-secondary btn-sm">BUY</button>
+                            </div>
+                            <button class="btn border border-secondary">+</button>
+                            <i class='bx bx-cart-add bx-flashing'></i>
+                            <button class="btn border border-secondary">-</button>
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="col-md-3">
+                        <div class="card bg-light-subtle">
+                            <img class="card-img-top" src="../Images/books4" alt="LOADING.."
+                                width="50px" height="300px" />
+                        </div>
+                        <div class="card-body bg-body-tertiary">
+                            <p>
+                              Ugly Love by Colleen Hoover
+                            </p>
+                            <span style="font-size: 2em;">₹889</span>
+                            <div class="card footer bg-secondary-subtle">
+                                <button class="btn border border-secondary btn-sm">BUY</button>
+                            </div>
+                            <button class="btn border border-secondary">+</button>
+                            <i class='bx bx-cart-add bx-flashing'></i>
+                            <button class="btn border border-secondary">-</button>
+                        </div>
+                    </div>
+
+<hr><hr/>
+<!-- THIRD ROW -->
+<!-- 1 -->
+                    <br>
+                    <div class="container">
+                        <header>
+                            <nav>
+                                <h3>ELECTRONICS</h3>
+                            </nav>
+                        </header>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card bg-light-subtle">
+                                    <img class="card-img-top" src="../Images/electronics1.jpg" alt="UNIVERSAL SOCKET"
+                                        width="150px" height="300px" />
+                                </div>
+                                <div class="card-body bg-body-tertiary">
+                                    <p>
+                                        SGJET 4 UNIVERSAL SOCKET 3 SWITCH MULTI PLUG EXTENSION BOARD 4 Socket Extension
+                                        Boards (White, 0
+                                        m)
+                                    </p>
+                                    <span style="font-size: 2em;">₹599</span>
+                                    <div class="card footer bg-secondary-subtle">
+                                        <button class="btn border border-secondary btn-sm">BUY</button>
+                                    </div>
+                                    <button class="btn border border-secondary">+</button>
+                                    <i class='bx bx-cart-add bx-flashing'></i>
+                                    <button class="btn border border-secondary">-</button>
+                                </div>
+                            </div>
+
+
+                            </hr>
+                            <br>
+
+                            <div class="col-md-3">
+                                <div class="card bg-light-subtle">
+                                    <img class="card-img-top" src="../Images/electronics1.jpg" alt="UNIVERSAL SOCKET"
+                                        width="50px" height="300px" />
+                                </div>
+                                <div class="card-body bg-body-tertiary">
+                                    <p>
+                                        SGJET 4 UNIVERSAL SOCKET 3 SWITCH MULTI PLUG EXTENSION BOARD 4 Socket Extension
+                                        Boards (White, 0
+                                        m)
+                                    </p>
+                                    <span style="font-size: 2em;">₹599</span>
+                                    <div class="card footer bg-secondary-subtle">
+                                        <button class="btn border border-secondary btn-sm">BUY</button>
+                                    </div>
+                                    <button class="btn border border-secondary">+</button>
+                                    <i class='bx bx-cart-add bx-flashing'></i>
+                                    <button class="btn border border-secondary">-</button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="card bg-light-subtle">
+                                    <img class="card-img-top" src="../Images/electronics1.jpg" alt="UNIVERSAL SOCKET"
+                                        width="50px" height="300px" />
+                                </div>
+                                <div class="card-body bg-body-tertiary">
+                                    <p>
+                                        SGJET 4 UNIVERSAL SOCKET 3 SWITCH MULTI PLUG EXTENSION BOARD 4 Socket Extension
+                                        Boards (White, 0
+                                        m)
+                                    </p>
+                                    <span style="font-size: 2em;">₹599</span>
+                                    <div class="card footer bg-secondary-subtle">
+                                        <button class="btn border border-secondary btn-sm">BUY</button>
+                                    </div>
+                                    <button class="btn border border-secondary">+</button>
+                                    <i class='bx bx-cart-add bx-flashing'></i>
+                                    <button class="btn border border-secondary">-</button>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card bg-light-subtle">
+                                    <img class="card-img-top" src="../Images/electronics1.jpg" alt="UNIVERSAL SOCKET"
+                                        width="50px" height="300px" />
+                                </div>
+                                <div class="card-body bg-body-tertiary">
+                                    <p>
+                                        SGJET 4 UNIVERSAL SOCKET 3 SWITCH MULTI PLUG EXTENSION BOARD 4 Socket Extension
+                                        Boards (White, 0
+                                        m)
+                                    </p>
+                                    <span style="font-size: 2em;">₹599</span>
+                                    <div class="card footer bg-secondary-subtle">
+                                        <button class="btn border border-secondary btn-sm">BUY</button>
+                                    </div>
+                                    <button class="btn border border-secondary">+</button>
+                                    <i class='bx bx-cart-add bx-flashing'></i>
+                                    <button class="btn border border-secondary">-</button>
+                                </div>
+                            </div>
+
+
+                            <br /><br />
+                            <br />
+
+                            <script src="../JS/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
